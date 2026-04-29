@@ -1,16 +1,19 @@
-## Hi there 👋
+# Hey, I'm Rohit 👋
 
-<!--
-**rohit-dhok/rohit-dhok** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Currently getting into cybersecurity 
+and building things with Python and React.
 
-Here are some ideas to get you started:
+I got into security after going down a rabbit hole 
+of CVEs and CTF challenges. Still learning — 
+documenting everything here as I go.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## What's here
+- Security tools I built while learning
+- CTF writeups and notes
+- Web projects
+
+## Currently learning
+Penetration testing, Linux, how things break
+
+## Reach me
+rohitdhok.dev@gmail.com
