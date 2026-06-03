@@ -1,19 +1,38 @@
 # Hey, I'm Rohit 👋
 
-Currently getting into cybersecurity 
-and building things with Python and React.
+Aspiring Full-Stack Developer and Cybersecurity Enthusiast.
 
-I got into security after going down a rabbit hole 
-of CVEs and CTF challenges. Still learning — 
-documenting everything here as I go.
+Currently building projects, learning in public, and exploring web security.
 
-## What's here
-- Security tools I built while learning
-- CTF writeups and notes
-- Web projects
+---
 
-## Currently learning
-Penetration testing, Linux, how things break
+## 🚀 Tech Stack
 
-## Reach me
-rohitdhok.dev@gmail.com
+### Frontend
+HTML, CSS, JavaScript, React
+
+### Backend
+Node.js, PostgreSQL (currently learning)
+
+### Tools
+Git, GitHub, VS Code
+
+### Security
+Kali Linux, Burp Suite, Nmap
+
+---
+
+## 📚 Currently Learning
+
+- PostgreSQL
+- Backend development with Node.js
+- Web application security
+- Penetration testing fundamentals
+
+---
+
+## 🎯 Goals
+
+- Build real-world full-stack projects
+- Improve cybersecurity skills
+- Contribute to open-source projects
