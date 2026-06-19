@@ -6,11 +6,19 @@ function Projects() {
     {
       project_number: "01",
       project_title: "readme AI doctor",
-      project_desc: "Score your README",
+      project_desc: "AI-powered tool that scores and improves your GitHub READMEs",
       tech_tags: ["React", "Javascript", "Gemini API"],
-      github: "",
-      live: ""
+      github: "https://github.com/rohit-dhok/readme-ai-doctor",
+      live: "https://readme-ai-doctor-srqs.vercel.app/"
     },
+    {
+      project_number: "02",
+      project_title: "GitHub Finder",
+      project_desc: "Search GitHub usernames and view profile stats, repos, and details - built with React.",
+      tech_tags: ["React", "Javascript", "GitHub API"],
+      github: "https://github.com/rohit-dhok/github-finder",
+      live: "https://github-finder-six-green.vercel.app/"
+    }
   ]
   return (
     <section id="projects" className="projects">
