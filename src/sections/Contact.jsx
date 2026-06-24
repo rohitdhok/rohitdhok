@@ -13,7 +13,7 @@ function Contact() {
       <a href="mailto:rohitdhok.dev@gmail.com" className="contact-email">rohitdhok.dev@gmail.com</a>
       <div className="contact-links">
         <a target='_blank' href="https://github.com/rohit-dhok" className="contact-github">GitHub</a>
-        <a target='_blank' href="https://www.linkedin.com/in/rohit-dhok-704980417/" className="contact-linkedin">LinkedIn</a>
+        <a target='_blank' href="https://www.linkedin.com/in/rohitdhok/" className="contact-linkedin">LinkedIn</a>
       </div>
     </section>
   )

@@ -15,19 +15,19 @@ function Skills() {
         <div className='skills-category'>
           <p>Frontend :</p>
           { skills.frontend.map((skill, index) => (
-            <span key={skill}>{skill}{index !== (skills.frontend.length)-1 ? " • " : ""}</span>
+            <span className="skill-tag" key={skill}>{skill}</span>
           ))}
         </div>
         <div className='skills-category'>
           <p>Tools :</p>
           { skills.tools.map((skill, index) => (
-            <span key={skill}>{skill}{index !== (skills.tools.length)-1 ? " • " : ""}</span>
+            <span className="skill-tag" key={skill}>{skill}</span>
           ))}
         </div>
         <div className='skills-category'>
           <p>Learning :</p>
           { skills.learning.map((skill, index) => (
-            <span key={skill}>{skill}{index !== (skills.learning.length)-1 ? " • " : ""}</span>
+            <span className="skill-tag" key={skill}>{skill}</span>
           ))}
         </div>
       </div>

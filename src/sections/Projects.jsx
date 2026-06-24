@@ -18,6 +18,14 @@ function Projects() {
       tech_tags: ["React", "Javascript", "GitHub API"],
       github: "https://github.com/rohit-dhok/github-finder",
       live: "https://github-finder-six-green.vercel.app/"
+    },
+    {
+      project_number: "03",
+      project_title: "Resume Builder",
+      project_desc: "A clean, minimal resume builder with AI-powered writing suggestions. Fill in your details, watch the resume build in real time, and download it as a PDF.",
+      tech_tags: ["React", "JavaScript", "Gemini API"],
+      github: "https://github.com/rohit-dhok/resume-builder-ai",
+      live: "https://resumo-liard.vercel.app/"
     }
   ]
   return (

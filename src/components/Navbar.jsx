@@ -16,8 +16,8 @@ function Navbar() {
       </div>
       <ul className={isOpen ? "nav-links open" : "nav-links"}>
         <li><Link to="about" smooth={true} offset={-120} duration={500} onClick={() => setIsOpen(false)}>About</Link></li>
-        <li><Link to="skills" smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Skills</Link></li>
-        <li><Link to="projects" smooth={true} offset={-100} duration={500} onClick={() => setIsOpen(false)}>Projects</Link></li>
+        <li><Link to="skills" smooth={true} offset={-80} duration={500} onClick={() => setIsOpen(false)}>Skills</Link></li>
+        <li><Link to="projects" smooth={true} offset={-80} duration={500} onClick={() => setIsOpen(false)}>Projects</Link></li>
         <li><Link to="contact" smooth={true} offset={-70} duration={500} onClick={() => setIsOpen(false)}>Contact</Link></li>
       </ul>
     </nav>
