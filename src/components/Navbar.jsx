@@ -6,8 +6,8 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="navbar">
-      <div className="logo">
-        Rohit
+      <div>
+        <Link className="nav-logo" to="hero" smooth={true} offset={-100} duration={500}>Rohit.</Link>
       </div>
       <div className="hamburger-icon">
         <button onClick={() => setIsOpen(!isOpen)}>
