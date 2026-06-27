@@ -1,5 +1,5 @@
 # Hey, I'm Rohit 👋
-🌐 Portfolio: [rohit-dhok.vercel.app](https://rohit-dhok.vercel.app)
+🌐 Portfolio: [rohitdhok.vercel.app](https://rohitdhok.vercel.app)
 
 Aspiring Full-Stack Developer and Cybersecurity Enthusiast.
 
@@ -10,7 +10,7 @@ Currently building projects, learning in public, and exploring web security.
 ## 🚀 Tech Stack
 
 ### Frontend
-HTML, CSS, JavaScript, React
+HTML5, CSS3, JavaScript, React
 
 ### Backend
 Node.js, PostgreSQL (currently learning)

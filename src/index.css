@@ -95,7 +95,7 @@ body {
 /* Hero */
 
 .hero {
-  min-height: 100vh;
+  min-height: 100dvh;
   padding-top: 180px;
   padding-left: 64px;
   padding-right: 64px;
@@ -327,7 +327,7 @@ body {
 
 .footer-content {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
@@ -335,18 +335,7 @@ body {
   font-size: 13px;
   color: var(--muted);
   font-family: var(--font-mono);
-}
-
-.toTop {
-  font-size: 13px;
-  color: var(--muted);
-  font-family: var(--font-mono);
   cursor: pointer;
-  transition: color 0.2s;
-}
-
-.toTop:hover {
-  color: var(--lime);
 }
 
 @media (max-width: 768px) {

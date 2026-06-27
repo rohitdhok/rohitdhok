@@ -2,7 +2,8 @@ import React from 'react'
 
 function Skills() {
   const skills = {
-    frontend: ["HTML", "CSS", "Javascript", "React"],
+    frontend: ["HTML5", "CSS3", "Javascript", "React"],
+    programming_languages: ["C", "Python", "Java"],
     tools: ["Git", "GitHub"],
     learning: ["Node.js", "Express.js", "PostgreSQL"]
   };
@@ -15,6 +16,12 @@ function Skills() {
         <div className='skills-category'>
           <p>Frontend :</p>
           { skills.frontend.map((skill, index) => (
+            <span className="skill-tag" key={skill}>{skill}</span>
+          ))}
+        </div>
+        <div className='skills-category'>
+          <p>Programming Languages :</p>
+          { skills.programming_languages.map((skill, index) => (
             <span className="skill-tag" key={skill}>{skill}</span>
           ))}
         </div>
