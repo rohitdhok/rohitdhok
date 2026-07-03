@@ -15,7 +15,7 @@ function Hero() {
         <p className="hero-name">- Rohit Dhok</p> 
       </div>
       <div className="hero-cta">
-        <Link to="projects" smooth={true} offset={-100} duration={500}>Explore Projects</Link>
+        <Link to="projects" smooth={true} offset={-100} duration={500}><p>Explore Projects</p></Link>
       </div>
     </section>
   )

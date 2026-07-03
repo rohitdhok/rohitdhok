@@ -16,7 +16,7 @@ function ProjectCard({project}) {
         <a href={project.live} target="_blank">Live ↗</a>
       </div>
       <div className="section-divider"></div>
-    </div>
+    </div> 
   )
 }
 

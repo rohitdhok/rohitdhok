@@ -150,6 +150,27 @@ body {
   opacity: 0.7;
 }
 
+.hero-cta p {
+  position: relative;
+  display: block;
+}
+
+.hero-cta p::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 0;
+  height: 3px;
+  background-color: var(--lime);
+  border-radius: 5px;
+  transition: width 0.4s ease-in-out;
+}
+
+.hero-cta p:hover::after {
+  width: 100%;
+}
+
 /* About section */
 .about {
   padding: 120px 64px;
@@ -254,6 +275,10 @@ body {
   font-size: 13px;
   font-family: var(--font-mono);
   color: var(--muted);
+  border: 1px solid var(--border);
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: default;
 }
 
 .links-row {
@@ -266,10 +291,22 @@ body {
   font-size: 14px;
   color: var(--lime);
   text-decoration: none;
+  position: relative;
 }
 
-.links-row a:hover {
-  text-decoration: underline;
+.links-row a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 2px;
+  width: 0;
+  background-color: var(--lime);
+  transition: width 0.4s ease-in-out;
+}
+
+.links-row a:hover::after {
+  width: 100%;
 }
 
 /* Contact */
